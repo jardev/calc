@@ -1,6 +1,6 @@
 # Project Overview
 
-A simple Django Ninja based API to evaluate mathematical expressions. Provides the following URLs:
+A simple Django based app that provides an API written using Django Ninja to evaluate mathematical expressions. Provides the following URLs:
 * `/api/docs` - API documentation + sandbox
 * `/api/calc` - the API endpoint
 
