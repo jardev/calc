@@ -1,0 +1,61 @@
+.DS_Store
+
+# Logs
+*.log
+
+geoip/
+
+# Frontend
+**/node_modules/
+dist/
+assets/bundles/
+**/.nuxt
+**/.output
+**/.pnp.*
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/sdks
+!**/.yarn/versions
+.npm
+**/webpack-stats.json
+
+# Cache
+.eslintcache
+.cache
+__pycache__/
+*.py[cod]
+
+# Configs
+.env
+.python-version
+settings_local.py
+cubed/settings/local.py
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+db.sqlite3
+staticfiles
+media/
+static/
+
+# Editor directories and files
+.idea
+.vscode
+.tm_properties
+*.suo
+*.ntvs*
+*.sln
+*.sw?
+*.*~
+*.bak
+*.swp
